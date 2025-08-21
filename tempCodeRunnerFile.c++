@@ -1,10 +1,13 @@
-int n;
-    cout << "enter a number:";
-    cin >> n;
+ int number = 8;
     int sum = 0;
-    for (int i = 1; i <= n; i++)
+    for (int i = 1; i < number; i++)
     {
-
-        sum = sum + i;
+        if (number % i == 0)
+        {
+            sum = sum + i;
+        }
     }
-    cout << sum;
+    if (sum == number)
+        cout << "perfect";
+    else
+        cout << "not perfect";

@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#navbar {
+    height: 90px;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(81, 81, 173, 0.445);
+    position: fixed;
+}
+
+#navbar .div1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#navbar i {
+    font-size: 30px;
+
+}
+
+h3 {
+    color: white;
+}
+
+#navbar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 40px;
+    padding-left: 500px;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    color: white;
+
+}
+
+button {
+    padding: 10px 10px;
+    margin-right: 20px;
+    border-radius: 20px;
+    color: orange;
+    border-color: orange;
+}
+
+
+#page1 {
+    height: 100vh;
+    width: 100%;
+    /* border: 1px solid black; */
+    background-image: url(girls\ image1.jpg);
+}
+
+
+#page1 .div2 {
+    padding-top: 200px;
+    padding-left: 100px;
+}
+
+#page1 .bold1 {
+    color: rgba(176, 176, 8, 0.541);
+}
+
+#page1 .div2 h1 {
+    color: white;
+}
+
+.div3 {
+    display: flex;
+}
+
+.div3 {
+    padding-top: 30px;
+    padding-left: 100px;
+}
+
+.div3 p {
+    font-size: 20px;
+}
+
+.div4 img {
+    height: 300px;
+    width: 500px;
+    border-radius: 20px;
+
+}
+
+.div4 {
+    padding-left: 1000px;
+}
+
+#page2 {
+    height: 50vh;
+    width: 100%;
+}
+
+#page2 .div5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#page2 .div6 {
+    display: flex;
+    margin-top: 50px;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.div6 img {
+    height: 100px;
+    width: 100px;
+
+}
+
+.div7 {
+    padding-left: 100px;
+}
+
+.div8 {
+    display: flex;
+    gap: 50px;
+}
+
+.div2 .bold {
+    background-color: aqua;
+}

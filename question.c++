@@ -591,17 +591,6 @@ int main()
     // }
 
     // loop  question;
-
-    // for (int i = 123; i <= 123; i++)
-    // {
-    //     cout << i << endl;
-
-    //     if (i == 123)
-    //     {
-    //         cout << "one two three";
-    //     }
-    // }
-
     // sum of natural number
     // int n;
     // cout << "enter a number:";
@@ -636,10 +625,15 @@ int main()
     //      }
     //  }
 
-    // int number1 = 2;
-    // int number2 = 8;
+    // Q.hcf
+    //  int number1;
+    //  int number2;
+    //  cout << "enter 2 number:";
+    //  cin >> number1 >> number2;
 
-    // int hcf = 0;
+    // int sn = (number1 < number2) ? number1 : number2;
+    // int hcf;
+
     // for (int i = 1; i <= number1; i++)
     // {
     //     if (number1 % i == 0 && number2 % i == 0)
@@ -649,10 +643,14 @@ int main()
     // }
     // cout << hcf;
 
-    // int number1 = 8;
-    // int number2 = 12;
+    //  int number1;  // Q.lcm even number
+    //  int number2;
+    //  cout << "enter 2 number:";
+    //  cin >> number1 >> number2;
 
+    // int sn = (number1 < number2) ? number1 : number2;
     // int hcf;
+
     // for (int i = 1; i <= number1; i++)
     // {
     //     if (number1 % i == 0 && number2 % i == 0)
@@ -660,6 +658,67 @@ int main()
     //         hcf = i;
     //     }
     // }
-
     // cout << (number1 * number2) / hcf;
+
+    //   int n1;// Q.lcm odd number
+    //  int n2;
+    //  cout << "enter 2 number:";
+    //  cin >> n1 >> n2;
+
+    // int sn = (n1 < n2) ? n1 : n2;
+
+    // for (int i = sn;; i = i + sn)
+    // {
+    //     if (i % n1 == 0 && i % n2 == 0)
+    //     {
+    //         cout << i;
+    //         break;
+    //     }
+    // }
+
+    // int n;// Q.prime number;
+    // cout << "enter a number:";
+    // cin >> n;
+    // int counter = 0;
+
+    // for (int i = 1; i <= n; i++)
+    // {
+    //     if (n % i == 0)
+    //     {
+    //         counter++;
+    //     }
+    // }
+
+    // if (counter == 2)
+    // {
+    //     cout << "prime";
+    // }
+    // else
+    // {
+    //     cout << "not prime";
+    // }
+
+    // int number = 8; // number jise sum ho and multiple whi print hoga
+    // int sum = 0;
+    // for (int i = 1; i < number; i++)
+    // {
+    //     if (number % i == 0)
+    //     {
+    //         sum = sum + i;
+    //     }
+    // }
+    // if (sum == number)
+    //     cout << "perfect";
+    // else
+    //     cout << "not perfect";
+
+    // int number = 1234;// number reverse
+    // int rev = 0;
+    // while (number != 0)
+    // {
+    //     int digit = number % 10;
+    //     rev = rev * 10 + digit;
+    //     number /= 10;
+    // }
+    // cout << rev;
 }
