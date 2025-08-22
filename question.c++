@@ -721,4 +721,55 @@ int main()
     //     number /= 10;
     // }
     // cout << rev;
+
+    // int number = 121;
+    // int rev = 0;
+    // int ori_val = number;
+    // int ori_value = 0;
+    // while (number != 0)
+    // {
+    //     int digit = number % 10;
+    //     rev = rev * 10 + digit;
+    //     number = number / 10;
+    // }
+
+    // if (rev == ori_val)
+
+    // {
+    //     cout << "palidrom";
+    // }
+    // else
+    // {
+    //     cout << "no palidrom";
+    // }
+
+    // int number = 153;//austreame  number
+    // int rev = 0;
+    // int ori_val = number;
+    // int ori_value = 0;
+    // while (number != 0)
+    // {
+    //     int digit = number % 10;
+    //     rev = rev + digit * digit * digit;
+    //     number = number / 10;
+    // }
+
+    // if (rev == ori_val)
+
+    // {
+    //     cout << "austreame";
+    // }
+    // else
+    // {
+    //     cout << "no austreame";
+    // }
+
+    // int number = 2;//power;
+    // int power = 10;
+    // int ans = 1;
+    // for (int i = 1; i <= power; i++)
+    // {
+    //     ans = ans * number;
+    // }
+    // cout << ans;
 }
