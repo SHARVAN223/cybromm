@@ -30,15 +30,15 @@ int main()
     // (age > 18) ? (cr == 0) ? cout << "eliegible" : cout << "not eligible" : cout << "invalid";
 
     // 6...
-    //     int pin;
-    //     cout << "enter a ATM pin:";
+    // int pin;
+    // cout << "enter a ATM pin:";
+    // cin >> pin;
+    // (pin == 1234) ? cout << "cw" : (cout << "invalid try again:"),
     //     cin >> pin;
-    //     (pin == 1234) ? cout << "cw" : (cout << "invalid try again:"),
-    //         cin >> pin;
-    //     (pin == 1234) ? cout << "cw" : (cout << "invalid password try again:"),
-    //         cin >> pin;
-    //     (pin == 1234) ? cout << "cw" : (cout << "card is blocked");
-    //     cout << endl;
+    // (pin == 1234) ? cout << "cw" : (cout << "invalid password try again:"),
+    //     cin >> pin;
+    // (pin == 1234) ? cout << "cw" : (cout << "card is blocked");
+    // cout << endl;
 
     //     cout << "enter a ATM pin:";
     //     cin >> pin;
@@ -629,7 +629,7 @@ int main()
     //  int number1;
     //  int number2;
     //  cout << "enter 2 number:";
-    //  cin >> number1 >> number2;
+    //   cin >> number1 >> number2;
 
     // int sn = (number1 < number2) ? number1 : number2;
     // int hcf;
@@ -772,4 +772,47 @@ int main()
     //     ans = ans * number;
     // }
     // cout << ans;
+
+    // int ft = 0;
+    // int st = 1;
+
+    // int i = 1;
+    // int n = 6;
+
+    // while (i <= 6)
+    // {
+    //     if (i == 1)
+    //     {
+    //         cout << ft << "\t";
+    //         i++;
+    //     }
+    //     if (i == 2)
+    //     {
+    //         cout << st << "\t";
+    //         i++;
+    //     }
+
+    //     int next = ft + st;
+    //     cout << next << "\t";
+
+    //     ft = st;
+    //     st = next;
+    //     i++;
+    // }
+
+    // for (int r = 1; r <= 5; r++) // pointer
+    // {
+    //     for (int c = 1; c <= 5; c++)
+    //     {
+    //         if (c <= r)
+    //         {
+    //             cout << "*";
+    //         }
+    //         else
+    //         {
+    //             cout << " ";
+    //         }
+    //     }
+    //     cout << endl;
+    // }
 }

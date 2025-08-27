@@ -3,46 +3,241 @@ using namespace std;
 int main()
 {
 
-    // int ft = 0;
-    // int st = 1;
+    // int r;
+    // cout << "enter a row : ";
+    // cin >> r;
 
-    // int i = 1;
-    // int n = 6;
-
-    // while (i <= 6)
+    // int c;
+    // cout << "enter a coloum : ";
+    // cin >> c;
+    // for (int i = 1; i <= r; i++)
     // {
-    //     if (i == 1)
+    //     for (int j = 1; j <= c; j++)
     //     {
-    //         cout << ft << "\t";
-    //         i++;
-    //     }
-    //     if (i == 2)
-    //     {
-    //         cout << st << "\t";
-    //         i++;
-    //     }
 
-    //     int next = ft + st;
-    //     cout << next << "\t";
-
-    //     ft = st;
-    //     st = next;
-    //     i++;
+    //         cout << "*";
+    //     }
+    //     cout << endl;
     // }
 
-    for (int r = 1; r <= 5; r++)
-    {
-        for (int c = 1; c <= 5; c++)
-        {
-            if (c <= r)
-            {
-                cout << "*";
-            }
-            else
-            {
-                cout << " ";
-            }
-        }
-        cout << endl;
-    }
+    // int r;
+    // cout << "enter a row : ";
+    // cin >> r;
+
+    // int c;
+    // cout << "enter a coloum : ";
+    // cin >> c;
+    // for (int i = 1; i <= r; i++)
+    // {
+    //     for (int j = 1; j <= c; j++)
+    //     {
+
+    //         cout << j;
+    //     }
+    //     cout << endl;
+    // }
+
+    // int r;
+    // cout << "enter a row : ";
+    // cin >> r;
+
+    // int c;
+    // cout << "enter a coloum : ";
+    // cin >> c;
+    // for (int i = 1; i <= r; i++)
+    // {
+    //     for (int j = 1; j <= c; j++)
+    //     {
+
+    //         cout << i;
+    //     }
+    //     cout << endl;
+    // }
+
+    // int r;
+    // cout << "enter a row : ";
+    // cin >> r;
+
+    // int c;
+    // cout << "enter a coloum : ";
+    // cin >> c;
+    // for (int i = 1; i <= r; i++)
+    // {
+    //     for (int j = 1; j <= c; j++)
+    //     {
+
+    //         cout << (char)(j + 64);
+    //     }
+    //     cout << endl;
+    // }
+
+    // int r;
+    // cout << "enter a row : ";
+    // cin >> r;
+
+    // int c;
+    // cout << "enter a coloum : ";
+    // cin >> c;
+    // for (int i = 1; i <= r; i++)
+    // {
+    //     for (int j = 1; j <= c; j++)
+    //     {
+
+    //         cout << (char)(i + 64) << " ";
+    //     }
+    //     cout << endl;
+    // }
+
+    // int r;
+    // cout << "enter a row : ";
+    // cin >> r;
+
+    // int c;
+    // cout << "enter a coloum : ";
+    // cin >> c;
+    // for (int i = 1; i <= r; i++)
+    // {
+    //     for (int j = 1; j <= c; j++)
+    //     {
+
+    //         cout << (char)(j + 96) << " ";
+    //     }
+    //     cout << endl;
+    // }
+
+    // int r;
+    // cout << "enter a row : ";
+    // cin >> r;
+
+    // int c;
+    // cout << "enter a coloum : ";
+    // cin >> c;
+    // for (int i = 1; i <= r; i++)
+    // {
+    //     for (int j = 1; j <= i; j++)
+    //     {
+
+    //         cout << "*";
+    //     }
+    //     cout << endl;
+    // }
+
+    // int r;
+    // cout << "enter a row : ";
+    // cin >> r;
+
+    // int c;
+    // cout << "enter a coloum : ";
+    // cin >> c;
+    // for (int i = 1; i <= r; i++)
+    // {
+    //     for (int j = 1; j <= i; j++)
+    //     {
+
+    //         cout << j;
+    //     }
+    //     cout << endl;
+    // }
+
+    // int r;
+    // cout << "enter a row : ";
+    // cin >> r;
+
+    // int c;
+    // cout << "enter a coloum : ";
+    // cin >> c;
+    // for (int i = 1; i <= r; i++)
+    // {
+    //     for (int j = 1; j <= i; j++)
+    //     {
+
+    //         cout << i;
+    //     }
+    //     cout << endl;
+    // }
+
+    // int r;
+    // cout << "enter a row : ";
+    // cin >> r;
+
+    // int c;
+    // cout << "enter a coloum : ";
+    // cin >> c;
+    // for (int i = 1; i <= r; i++)
+    // {
+    //     for (int j = 1; j <= i; j++)
+    //     {
+
+    //         cout << (char)(j + 64);
+    //     }
+    //     cout << endl;
+    // }
+
+    // int r;
+    // cout << "enter a row : ";
+    // cin >> r;
+
+    // int c;
+    // cout << "enter a coloum : ";
+    // cin >> c;
+    // for (int i = 1; i <= r; i++)
+    // {
+    //     for (int j = 1; j <= r - i + 1; j++)
+    //     {
+
+    //         cout << "*";
+    //     }
+    //     cout << endl;
+    // }
+
+    // int r;
+    // cout << "enter a row : ";
+    // cin >> r;
+
+    // int c;
+    // cout << "enter a coloum : ";
+    // cin >> c;
+    // for (int i = 1; i <= r; i++)
+    // {
+    //     for (int j = 1; j <= r - i + 1; j++)
+    //     {
+
+    //         cout << (char)(j + 64);
+    //     }
+    //     cout << endl;
+    // }
+
+    // int r;
+    // cout << "enter a row : ";
+    // cin >> r;
+
+    // int c;
+    // cout << "enter a coloum : ";
+    // cin >> c;
+    // for (int i = 1; i <= r; i++)
+    // {
+    //     for (int j = 4; j >= r - i + 1; j--)
+    //     {
+
+    //         cout << j;
+    //     }
+    //     cout << endl;
+    // }
+
+    // int r;
+    // cout << "enter a row : ";
+    // cin >> r;
+
+    // int c;
+    // cout << "enter a coloum : ";
+    // cin >> c;
+    // for (int i = 1; i <= r; i++)
+    // {
+    //     for (int j = 1; j <= i; j = j + 2)
+    //     {
+
+    //         cout << j;
+    //     }
+    //     cout << endl;
+    // }
 }

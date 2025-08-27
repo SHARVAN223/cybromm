@@ -1,1 +1,3 @@
-int sn = (number1 < number2) ? number1 : number2;
+ // int c;
+    // cout << "enter a coloum : ";
+    // cin >> c;
