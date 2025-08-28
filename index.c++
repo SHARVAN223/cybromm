@@ -7,19 +7,38 @@ int main()
     cin >> r;
 
     int c;
-    cout << "enter a coloum:";
+    cout << "enter a colum:";
     cin >> c;
+
+    int mid = r / 2 + 1;
+
     for (int i = 1; i <= r; i++)
     {
-        for (int j = 1; j <= i; j++)
+        for (int j = 1; j <= c; j++)
         {
-            if ((i + j) % 2 == 0)
+            if (i == mid || j == mid)
             {
-                cout << 1 << " ";
+                cout << "*" << " ";
             }
             else
             {
-                cout << 0 << " ";
+                cout << "  ";
+            }
+        }
+        cout << endl;
+    }
+
+    for (int i = 1; i <= 5; i++)
+    {
+        for (int j = 1; j <= 5; j++)
+        {
+            if (j > 6 - i)
+            {
+                cout << "*";
+            }
+            else
+            {
+                cout << " ";
             }
         }
         cout << endl;
