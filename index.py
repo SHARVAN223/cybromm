@@ -1,3 +1,7 @@
-a = int(input("enter a number:")) 
-b = int(input("enter a number:"))
-print("this value is:",a+b)
+# import sys
+
+# b=10
+# print(sys.getsizeof(b))
+# print(sys.version)
+
+
