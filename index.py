@@ -1,39 +1,3 @@
-# import sys
-
-# b=10
-# print(sys.getsizeof(b))
-# print(sys.version)
-
-x = 10
-y =20
-# print (type(x+y))
-# print (type(x-y))
-# print (type(x*y))
-# print (type(x/y))
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
