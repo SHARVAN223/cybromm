@@ -1,31 +1,21 @@
 #include <iostream>
 using namespace std;
 
-int factorial(int n)
+int reverse(int num)
 {
-    int fact = 1;
-    for (int i = 1; i <= n; i++)
+    int rev = 0;
+    while (num > 0)
     {
-        fact *= i;
+        int digit = num % 10;
+        rev = rev * 10 + digit;
+        num = num / 10;
     }
-    return fact;
-}
-
-int ncr(int n, int r)
-{
-    int fact_n = factorial(n);
-    int fact_r = factorial(r);
-    int fact_nr = factorial(n - r);
-
-    return fact_n / (fact_r * fact_nr);
+    return rev;
 }
 
 int main()
 {
-    int n = 8;
-    int r = 2;
-
-    cout << ncr(n, r) << endl;
+    cout << reverse(2345);
 
     return 0;
 }
