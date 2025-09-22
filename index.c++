@@ -1,21 +1,23 @@
 #include <iostream>
 using namespace std;
 
-int reverse(int num)
+int decimaltoBinary(int decN)
 {
-    int rev = 0;
-    while (num > 0)
-    {
-        int digit = num % 10;
-        rev = rev * 10 + digit;
-        num = num / 10;
-    }
-    return rev;
-}
+    int ans = 0;
+    int pow = 1;
 
+    while (decN > 0)
+    {
+        int rem = decN % 2;
+        decN /= 2;
+
+        ans += (rem * pow);
+        pow *= 10;
+    }
+    return ans;
+}
 int main()
 {
-    cout << reverse(2345);
-
+    cout << decimaltoBinary(50) << endl;
     return 0;
 }

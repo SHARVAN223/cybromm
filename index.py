@@ -1,7 +1,7 @@
-
-
-
-
+x = range(3,-3)
+print(x)
+print(type(x))
+print(list(x))
 
 
 
