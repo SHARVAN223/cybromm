@@ -1,12 +1,3 @@
-.c1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.c2 {
-    height: 200px;
-    width: 300px;
-    border: 1px solid black;
+span {
+    color: aqua;
 }

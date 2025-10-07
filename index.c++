@@ -1,26 +1,29 @@
 #include <iostream>
 using namespace std;
 
-int bintoecimal(int binNum)
+void reverseArray(int arr[], int sz)
 {
-    int ans = 0;
-    int pow = 1;
+    int start = 0;
+    int end = sz - 1;
 
-    while (binNum > 0)
+    while (start < end)
     {
-        int rem = binNum % 10;
-        ans += (rem * pow);
-
-        binNum /= 10;
-        pow *= 2;
+        swap(arr[start], arr[end]);
+        start++;
+        end--;
     }
-    return ans;
 }
-
 int main()
 {
+    int arr[] = {1, 23, 4, 67};
+    int sz = 4;
 
-    cout << bintoecimal(1010) << endl;
+    reverseArray(arr, sz);
 
+    for (int i = 0; i < sz; i++)
+    {
+        cout << arr[i] << " ";
+    }
+    cout << endl;
     return 0;
 }
