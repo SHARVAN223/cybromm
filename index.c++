@@ -2,28 +2,28 @@
 #include <vector>
 using namespace std;
 
-int linearsearch(vector<int> &vec, int sz, int target)
-{
-    for (int i = 0; i < sz; i++)
-    {
-        if (vec[i] == target)
-        {
-            return i;
-        }
-    }
-    return -1;
-}
+// int linearsearch(vector<int> &vec, int sz, int target)
+// {
+//     for (int i = 0; i < sz; i++)
+//     {
+//         if (vec[i] == target)
+//         {
+//             return i;
+//         }
+//     }
+//     return -1;
+// }
 
-int main()
-{
+// int main()
+// {
 
-    vector<int> vec = {4, 2, 7, 8, 1, 2, 5};
-    int sz = 7;
-    int target = 7;
-    cout << linearsearch(vec, sz, target) << endl;
+//     vector<int> vec = {4, 2, 7, 8, 1, 2, 5};
+//     int sz = vec.size();
+//     int target = 7;
+//     cout << linearsearch(vec, sz, target) << endl;
 
-    return 0;
-}
+//     return 0;
+// }
 
 // void reverseArray(vector<int> &arr, int sz)
 // {
@@ -33,10 +33,9 @@ int main()
 //     while (start < end)
 //     {
 //         swap(arr[start], arr[end]);
-//         {
-//             start++;
-//             end--;
-//         }
+
+//         start++;
+//         end--;
 //     }
 // }
 
@@ -53,3 +52,22 @@ int main()
 //     cout << endl;
 //     return 0;
 // }
+
+int main()
+{
+    int n = 7;
+    int arr[] = {3, -4, 5, 4, -1, 7, -8};
+    int maxsum = INT16_MIN;
+    for (int st = 0; st < n; st++)
+    {
+        int currsum = 0;
+        for (int end = st; end < n; end++)
+        {
+            currsum += arr[end];
+            maxsum = max(currsum, maxsum);
+        }
+    }
+
+    cout << "max = " << maxsum << endl;
+    return 0;
+}
