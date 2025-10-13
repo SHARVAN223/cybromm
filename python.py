@@ -123,8 +123,8 @@
 
 # Q number of digit
 # n = int(input("enter a value"))
-# x = y = n
-# td = sum = 0
+# x =  n
+# td =  0
 
 
 # while(n>0):
@@ -136,24 +136,24 @@
 
 
 # Q armstrong
-n = int(input("enter a value"))
-x = y = n
-td = sum = 0
+# n = int(input("enter a value"))
+# x = y = n
+# td = sum = 0
 
 
-while(n>0):
-    td = td + 1
-    n = n//10
-print("number of digit=",td)
-while(x>0):
-    ls = x%10
-    sum = sum+ls**td
-    x = x//10
+# while(n>0):
+#     td = td + 1
+#     n = n//10
+# print("number of digit=",td)
+# while(x>0):
+#     ls = x%10
+#     sum = sum+ls**td
+#     x = x//10
 
-if(y == sum):
-    print("armstrong")
-else:
-    print("not armstrong")
+# if(y == sum):
+#     print("armstrong")
+# else:
+#     print("not armstrong")
 
 
 
@@ -168,5 +168,115 @@ else:
 # while(i<=n):
 #     print(''*i+'*'*(n-i))
 #     i= i+1
+
+
+# Q
+# n = int(input("enter a value:"))
+# ch = 'A'
+# i = 1
+# while(i<=n):
+#     print(ch,end = '')
+#     ch = chr(ord(ch)+1)
+#     i= i+1
+
+
+
+# Q
+# n = int(input("enter a value"))
+# i = 1
+# while(i<=n):
+#     ch = 'A'
+#     j = 1
+#     while( j<=n):
+#         print(ch,end=' ')
+#         ch = chr(ord(ch)+1)
+#         j = j+1
+#     print()
+#     i = i+1
+
+# Q
+# n = int(input("enter a value"))
+# i = 1
+# while(i<=n):
+#     ch = 'A'
+#     j = 1
+#     while( j<=i):
+#         print(ch,end=' ')
+#         ch = chr(ord(ch)+1)
+#         j = j+1
+#     print()
+#     i = i+1
+
+
+# Q
+# n = int(input("enter a value"))
+# i = 1
+# while(i<=n):
+#     ch = 'A'
+#     j = 1
+#     while( j<=i):
+#         print(ch,end=' ')
+#         ch = chr(ord(ch)+2)
+#         j = j+1
+#     print()
+#     i = i+1
+
+
+# Q
+# n = int(input("enter a value:"))
+# ch = 'A'
+# i = 1
+# while(i<=n):
+#     j = 1
+#     while( j<=i):
+#         print(ch,end=' ')
+#         ch = chr(ord(ch)+2)
+#         j = j+1
+#     print()
+#     i = i+1
+
+
+
+
+ 
+
+# Q
+# n = int(input("enter a value:"))
+# i = 1
+# while(i<=n):
+#     j = 1
+#     while( j<=i):
+#         print(j,end=' ')
+#         j = j+1
+#     print()
+#     i = i+1
+
+    
+# Q
+# n = int(input("enter a value:"))
+# i = 1
+# while(i<=n):
+#     j = 1
+#     while( j<=n):
+#         print(j,end=' ')
+#         j = j+1
+#     print()
+#     i = i+1
+
+
+# Q
+n = int(input("enter a value:"))
+i = 1
+while(i<=n):
+    j = 1
+    while( j<=i):
+        print(j,end=' ')
+        j = j+2
+    print()
+    i = i+2
+
+
+
+
 
 
